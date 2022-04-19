@@ -10,11 +10,10 @@
 ## Question 1
 
 Run the file as `./1.sh` and then input the `<filename>` and the output will be printed on the screen.
-Both the parts a and b will be printed on the screen with a gap of 4 lines.
 
 ## Question 2
 
-Run the file as `./2.sh` and then input the `<filename>` and the output will be printed on the screen.
+Run the file as `./2.sh` and then input the `<filename>` and the output will be redirected to a file named speech.txt.
 
 ## Question 3
 

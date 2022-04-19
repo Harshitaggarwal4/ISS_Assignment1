@@ -13,5 +13,4 @@ echo -n Line No: $I - Count of Words:
 wc -w <<< "$line"   
 I=$(($I+1))
 done < $filename
-echo
-awk '{for(i = 1; i <= NF; i++) {a[$i]++}} END {for(k in a) if(a[k] > 1) {print "Word :" "<" k ">","- Count of repetition :" "[" a[k] "]"}}' $filename
+awk '{for(i = 1; i <= NF; i++) {a[$i]++}} END {for(k in a) if(a[k] > 1) {print "Word :"k,"- Count of repetition :"a[k]}}' $filename
