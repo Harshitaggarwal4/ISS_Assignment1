@@ -30,3 +30,7 @@ The output of sorted array will be printed on the screen.
 
 Run the file as `./5.sh` and then input a name. The output will be printed on the screen.
 The output to all the 3 parts will be printed on the screen with a gap of 1 line.
+
+## GitHub Link
+
+[Link to GitHub Repository](https://github.com/Harshitaggarwal4/ISS_Assignment1)
