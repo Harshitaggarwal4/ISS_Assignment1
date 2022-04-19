@@ -9,4 +9,4 @@ then
 echo -n "${OUTPUT}\"$OUTPUT1\""
 echo
 fi
-done < $filename
+done < $filename > speech.txt
